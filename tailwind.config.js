@@ -7,26 +7,20 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            sans: ["Roboto"] // setting the default font-family
+            sans: ["Roboto"]
         },
         extend: {
             fontFamily: {
-                "roboto": ["Roboto", "sans-serif"], // making possible to use classes font-roboto and font-dancing-script
+                "roboto": ["Roboto", "sans-serif"],
                 "dancing-script": ["Dancing Script", "cursive"],
             },
-            extend: {
-                fontFamily: {
-                    "roboto": ["Roboto", "sans-serif"],
-                    "dancing-script": ["Dancing Script", "cursive"],
-                },
-                // colors added:
-                colors: {
-                    "custom-powder-light": "#eee2dc",
-                    "custom-powder": "#edc7b7",
-                    "custom-blue": "#123c69",
-                    "custom-blue-light": "#3a6aa4",
-                    "custom-red": "#ac3b61",
-                },
+            // colors added:
+            colors: {
+                "custom-powder-light": "#eee2dc",
+                "custom-powder": "#edc7b7",
+                "custom-blue": "#123c69",
+                "custom-blue-light": "#3a6aa4",
+                "custom-red": "#ac3b61",
             },
         },
     },
